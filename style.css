@@ -1,0 +1,65 @@
+*{
+ margin: 0; 
+ padding: 0; 
+ box-sizing: border-box;
+ outline: 0;
+}
+ui li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+#wrapper{
+    height: 100vh;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#wrapper .rslt{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#wrappere button{
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+
+
+#pass{
+ height: 100vh;
+ background-color: #58B19F;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+#pass .wrapper{
+    background-color: #2C3A47;
+    padding: 10px;
+    display: flex;
+}
+#pass .wrapper input{
+    padding: 10px;
+    border: 0;
+    outline: 0;
+}
+#pass .wrapper .btn-group{
+    display: flex;
+}
+#pass .wrapper button{
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+}
+#pass .wrapper .btn_1{
+    display: none;
+}
+
